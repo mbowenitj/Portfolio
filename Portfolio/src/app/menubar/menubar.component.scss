@@ -1,13 +1,14 @@
 .navbar {
   position: fixed;
   top: 0;
-  // background: #333;
+  // background: transparent;
   width: 100%;
-  height: 70px;
+  height: 75px;
+  z-index: 99;
   // background: #fff;
   // border-bottom: 1px solid #eee;
   .fa-phone {
-    font-size: 30px;
+    font-size: 25px;
     color: red;
   }
 }
@@ -21,7 +22,7 @@
   display: inline-block;
   font-size: 14px;
   font-weight: 600;
-  color: #fff;
+  // color: #fff;
   margin: 0 10px;
 }
 .navbar ul li a {
