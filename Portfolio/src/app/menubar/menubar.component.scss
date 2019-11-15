@@ -7,9 +7,14 @@
   z-index: 99;
   // background: #fff;
   // border-bottom: 1px solid #eee;
-  .fa-phone {
-    font-size: 25px;
-    color: red;
+  .navbar-collapse button {
+    background-color: transparent;
+    border: none;
+  }
+  .navbar-collapse img {
+    width: 50px;
+    position: relative;
+    top: 30px;
   }
 }
 .navbar ul {

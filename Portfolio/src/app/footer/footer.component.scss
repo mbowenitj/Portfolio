@@ -3,5 +3,25 @@ footer {
   padding: 40px 0px 40px 0px;
   .footer-container {
     text-align: center;
+    padding-bottom: 50px;
+    p {
+      width: 50%;
+      margin: 0 auto;
+      padding-top: 40px;
+      color: #6c757d;
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+  .fa {
+    font-size: 55px;
+    color: #6c757d;
+  }
+  .copyright {
+    text-align: center;
+    // color: #fff;
+    padding-top: 50px;
+    font-size: 14px;
+    margin: 0 auto;
   }
 }

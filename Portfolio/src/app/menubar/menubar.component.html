@@ -11,10 +11,17 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <a href="tel: +27 78 0550 474">
-      <i class="fa fa-phone"></i>
-    </a>
-    <ul class="navbar-nav">
+    <!--Scroll to top-->
+    <button
+      [ngClass]="{ 'show-scroll': showScroll }"
+      (click)="scrollToTop()"
+      class="scroll-to-top"
+    >
+      <img src="/assets/images/arrow-top-white.png" />
+    </button>
+
+    <!-- <img src="/assets/images/arrow-top-white.png" /> -->
+    <ul class="navbar-nav navbar-right">
       <li class="nav-item active">
         <a class="nav-link" href="#"
           >Home <span class="sr-only">(current)</span></a
