@@ -7,10 +7,14 @@ h1 {
   padding-top: 40px;
   // text-align: center;
   // width: 995px;h2{
-  h2,
+  h2 {
+    padding-bottom: 30px;
+    color: #fff;
+  }
   p {
     padding-bottom: 30px;
     color: #fff;
+    font-size: 18px;
   }
 }
 #wrapper h1 {
@@ -59,7 +63,7 @@ h1 {
   float: left;
   position: relative;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   width: 70%;
   // background-color: #e6e6e6;
   height: 40px;

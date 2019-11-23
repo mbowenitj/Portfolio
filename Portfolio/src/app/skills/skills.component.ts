@@ -11,11 +11,11 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit() {
     $(document).ready(function() {
-      $("#skillbar_html").animate({ width: "85%" }, 1500);
-      $("#skillbar_css").animate({ width: "55%" }, 1500);
-      $("#skillbar_angular").animate({ width: "75%" }, 1500);
-      $("#skillbar_javascript").animate({ width: "55%" }, 1500);
-      $("#skillbar_bootstrap").animate({ width: "75%" }, 1500);
+      $("#skillbar_html").animate({ width: "95%" }, 1500);
+      $("#skillbar_css").animate({ width: "95%" }, 1500);
+      $("#skillbar_angular").animate({ width: "80%" }, 1500);
+      $("#skillbar_javascript").animate({ width: "80%" }, 1500);
+      $("#skillbar_bootstrap").animate({ width: "90%" }, 1500);
     });
   }
 }
