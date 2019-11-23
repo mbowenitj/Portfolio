@@ -1,10 +1,11 @@
 h1 {
   text-align: center;
   color: #fff;
+  padding-bottom: 50px;
 }
 #wrapper {
   margin: 0 auto;
-  padding-top: 40px;
+  // padding-top: 40px;
   // text-align: center;
   // width: 995px;h2{
   h2 {
@@ -15,6 +16,17 @@ h1 {
     padding-bottom: 30px;
     color: #fff;
     font-size: 18px;
+  }
+  .btn-contact {
+    padding: 15px;
+    color: #fff;
+    border: 2px solid;
+    text-transform: uppercase;
+    font-weight: 400;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
   }
 }
 #wrapper h1 {
