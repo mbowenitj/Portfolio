@@ -11,6 +11,8 @@ export class MenubarComponent implements OnInit {
   showScrollHeight = 300;
   hideScrollHeight = 10;
 
+  constructor() {}
+
   @HostListener("window:scroll", [])
   onWindowScroll() {
     if (
@@ -39,8 +41,6 @@ export class MenubarComponent implements OnInit {
       }
     })();
   }
-
-  constructor() {}
 
   ngOnInit() {
     $(document).ready(() => {

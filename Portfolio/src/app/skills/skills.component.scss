@@ -1,0 +1,94 @@
+h1 {
+  text-align: center;
+  color: #fff;
+}
+#wrapper {
+  margin: 0 auto;
+  padding-top: 40px;
+  // text-align: center;
+  // width: 995px;h2{
+  h2,
+  p {
+    padding-bottom: 30px;
+    color: #fff;
+  }
+}
+#wrapper h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  color: #2e64fe;
+}
+#wrapper h1 a {
+  color: #2e64fe;
+  font-size: 18px;
+}
+.skills_container {
+  padding-top: 60px;
+}
+.skill_name {
+  // margin-left: 250px;
+  width: 90px;
+  height: 40px;
+  line-height: 2;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  clear: both;
+  float: left;
+  position: relative;
+  left: 90px;
+  text-align: left;
+  border-radius: 3px 0px 0px 3px;
+}
+// #skill_php {
+//   background-color: #f26c4f;
+// }
+// #skill_asp {
+//   background-color: #5858fa;
+// }
+// #skill_jsp {
+//   background-color: #f26c4f;
+// }
+// #skill_javascript {
+//   background-color: #5858fa;
+// }
+// #skill_bootstrap {
+//   background-color: #f26c4f;
+// }
+.skillbar_wrapper {
+  float: left;
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+  width: 70%;
+  // background-color: #e6e6e6;
+  height: 40px;
+  border-radius: 0px 3px 3px 0px;
+}
+.skillbar_bar {
+  background-color: #f26c4f;
+  height: 5px;
+  position: relative;
+  // height: 40px;
+  top: 36px;
+  width: 0px;
+  border-radius: 0px 3px 3px 0px;
+}
+// .skillbar_bar {
+//   background-color: #f26c4f;
+// }
+// #skillbar_asp {
+//   background-color: #f26c4f;
+// }
+// #skillbar_jsp {
+//   background-color: #f26c4f;
+// }
+.skill_bar_percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 12px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+}
