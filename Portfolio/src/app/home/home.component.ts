@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
 
       // toggle between fadeIn and fadeOut with 0.3s fade duration.
       function fade() {
-        $("span").fadeToggle(500);
+        $(".jobRole").fadeToggle(500);
       }
     });
   }

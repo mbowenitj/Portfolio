@@ -1,6 +1,12 @@
 footer {
   height: 400px;
   padding: 40px 0px 40px 0px;
+  span {
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+  }
+
   .footer-container {
     text-align: center;
     padding-bottom: 50px;
@@ -25,6 +31,7 @@ footer {
     text-align: center;
     // color: #fff;
     padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 14px;
     margin: 0 auto;
   }

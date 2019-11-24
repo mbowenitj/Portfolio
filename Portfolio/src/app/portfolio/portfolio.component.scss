@@ -8,5 +8,8 @@ h1 {
   img {
     padding: 10px;
     width: 300px;
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }
