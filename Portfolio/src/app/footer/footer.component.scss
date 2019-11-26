@@ -9,10 +9,24 @@ footer {
 
   .footer-container {
     text-align: center;
-    padding-bottom: 50px;
-    h1 {
+    padding-bottom: 100px;
+    h1 > span {
       text-transform: uppercase;
       color: #fff;
+      border: 2px solid #fff;
+      // width: 30%;
+      text-align: center;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .talk-arrow:after {
+      border-style: solid;
+      border-width: 1.625rem 1.625rem 0 0;
+      border-color: #fff transparent transparent transparent;
+      top: 68px;
+      content: "";
+      right: 162px;
+      position: relative;
     }
     p {
       width: 50%;
