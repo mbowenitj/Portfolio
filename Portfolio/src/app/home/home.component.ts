@@ -63,12 +63,30 @@ export class HomeComponent implements OnInit {
           });
         }
       }
-      // function testUp() {
-      //   if (isScrolledIntoView($("#portfolio")) && !viewed) {
-      //     viewed = true;
-      //     alert("ninja");
+      // $(window).scroll(function() {
+      //   var offset = $("#contact").offset().top;
+
+      //   if ($(window).scrollTop() >= offset) {
+      //     // alert("ninjawewewe");
+      //     // $(this).attr({
+      //     //   "border-style": "solid",
+      //     //   "border-width": "1.625rem 1.625rem 0 0",
+      //     //   "border-color": "#fff transparent transparent transparent",
+      //     //   bottom: "-1.625rem",
+      //     //   content: "",
+      //     //   left: "2.5rem",
+      //     //   position: "absolute"
+      //     // });
+      //     $(".shape").css({
+      //       "stroke-width": "2px",
+      //       "stroke-dashoffset": "0",
+      //       "stroke-dasharray": "760"
+      //     });
+      //     //     stroke-width: 2px;
+      //     // stroke-dashoffset: 0;
+      //     // stroke-dasharray: 760;
       //   }
-      // }
+      // });
     });
   }
 }
