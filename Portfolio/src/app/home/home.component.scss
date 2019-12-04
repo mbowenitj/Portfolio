@@ -90,6 +90,24 @@ h1 {
   }
 }
 
+.counter-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  // background-image: url(http://forbetterweb.com/universal/wp-content/uploads/2016/11/14-4.jpg);
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .counter {
   font-size: 70px;
   color: #f26c4f;
@@ -98,10 +116,10 @@ h1 {
   font-size: 40px;
   color: #fff;
 }
-.counter-container {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+// .counter-container {
+//   padding-top: 50px;
+//   padding-bottom: 50px;
+// }
 .experience {
   padding-top: 50px;
   padding-bottom: 50px;
