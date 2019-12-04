@@ -5,18 +5,19 @@ h1 {
 }
 .about {
   p {
-    font-size: 16px;
-    padding-top: 40px;
+    line-height: 1.6875rem;
+    font-size: 19px;
+    padding-top: 50px;
     color: #fff;
   }
   .contacts-header {
-    font-size: 16px;
+    font-size: 19px;
     color: #f26c4f;
     font-weight: 500;
   }
   .contacts,
   .email {
-    font-size: 16px;
+    font-size: 19px;
     color: #fff;
   }
   img {
@@ -28,5 +29,23 @@ h1 {
     &:hover {
       transition: width 2s;
     }
+  }
+  h3 > span {
+    position: absolute;
+    left: 15px;
+    top: 1px;
+    border: 2px solid #fff;
+    padding: 14px;
+    color: #fff;
+    font-size: 26px;
+  }
+  .talk-arrow:after {
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+    bottom: -0.625rem;
+    content: "";
+    left: 2.5rem;
+    position: absolute;
+    border-width: 0.625rem 0.625rem 0 0;
   }
 }

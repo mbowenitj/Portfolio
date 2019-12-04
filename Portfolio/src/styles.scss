@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
 
 body,
 html {
+  font-family: "Rokkitt", serif !important;
   background-color: #020312;
   height: 100%;
   scroll-behavior: smooth;
