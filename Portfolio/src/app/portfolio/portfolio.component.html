@@ -10,18 +10,31 @@
   <div class="col-md-1"></div>
 </div> -->
 <!-- <a href="http://www.google.com" target="_blank">testing............</a> -->
-<div class="row">
+<div class="row" *ngFor="let project of portFolios">
   <div class="col-md-1"></div>
+  <div class="div"></div>
   <div class="col-md-11">
-    <a
-      href="https://applications.usb-ed.com/?iID=c9a37630-0836-e511-80c8-005056b8008e"
-      target="_self"
+    <!-- <button id="myButton" (click)="myFunction('{{project.id}}');"> </button> -->
+    <button id="myButton" (click)="goToLink(project.url)">Home</button>
+
+    <a href="{{ project.url }}">
+      <img src="/assets/images/projects/usb-ed.jpg"
+    /></a>
+
+    <!-- <a
+      (click)="
+        goToLink(
+          'https://applications.usb-ed.com/?iID=c9a37630-0836-e511-80c8-005056b8008e'
+        )
+      "
     >
       <img src="/assets/images/projects/usb-ed.jpg" />
     </a>
-    <a href="http://events.engagementfactory.com/cem" target="_blank">
+
+    <a (click)="goToLink('http://events.engagementfactory.com/cem')">
       <img src="/assets/images/projects/engagement-factory.jpg" />
     </a>
+
     <a href="https://iqos-friends.nurun.io/login.html">
       <img src="/assets/images/projects/iqos-colors-model_Z.jpg" />
     </a>
@@ -64,9 +77,6 @@
       <img src="/assets/images/projects/ricoh-supercollaboration1.jpg" />
     </a>
     <a href="">
-      <img src="/assets/images/projects/Coming-Soon-Placeholder1-400x400.jpg" />
-    </a>
-    <!-- <a href="">
       <img src="/assets/images/projects/Coming-Soon-Placeholder1-400x400.jpg" />
     </a> -->
   </div>

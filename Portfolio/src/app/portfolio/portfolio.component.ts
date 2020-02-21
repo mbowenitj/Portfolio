@@ -6,18 +6,20 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./portfolio.component.scss"]
 })
 export class PortfolioComponent implements OnInit {
-  constructor() {}
+  constructor() { }
+
+  buttonValue: string;
 
   portFolios = [
     {
       id: 1,
       imgUrl: "/assets/images/tito.png",
-      url: "www.google.com"
+      url: "https://www.google.co.za"
     },
     {
       id: 2,
       imgUrl: "/assets/images/tito.png",
-      url: "www.google.com"
+      url: "https://www.ninga.co.za"
     },
     {
       id: 3,
@@ -46,5 +48,18 @@ export class PortfolioComponent implements OnInit {
     }
   ];
 
-  ngOnInit() {}
+  goToLink(url: string) {
+    window.open(url, "_blank");
+  }
+
+  goToPage(url: string) {
+    window.location.href = url;
+
+  }
+
+  // myFunction(id, url) {
+  //   window.location.href  = "url?id=" + id;
+  // }
+
+  ngOnInit() { }
 }
