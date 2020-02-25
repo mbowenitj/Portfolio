@@ -1,7 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
 
-// @import "../../styles";
+$text: #4b507a;
+
+$cyan: #60daaa;
+$yellow: #fbca67;
+$orange: #ff8a30;
+$red: #f45e61;
+$purple: #6477b9;
+$blue: #0eb7da;
+$white: #fff;
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body,
 html {

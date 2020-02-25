@@ -7,10 +7,10 @@ import * as $ from "jquery";
   styleUrls: ["./home.component.scss"]
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
+  constructor() { }
 
   ngOnInit() {
-    $(document).ready(function() {
+    $(document).ready(function () {
       // $(window).scroll(function() {
       //   if ($(this).scrollTop() === 100) {
       //     // this refers to window
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
       //   }
       // });
       // run the fade() function every 2 seconds
-      setInterval(function() {
+      setInterval(function () {
         fade();
       }, 3000);
 
@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit {
       function testScroll() {
         if (isScrolledIntoView($("#counter")) && !viewed) {
           viewed = true;
-          $(".Count").each(function() {
+          $(".Count").each(function () {
             $(this)
               .prop("Counter", 0)
               .animate(
@@ -53,9 +53,9 @@ export class HomeComponent implements OnInit {
                   Counter: $(this).text()
                 },
                 {
-                  duration: 4000,
+                  duration: 8000,
                   easing: "swing",
-                  step: function(now) {
+                  step: function (now) {
                     $(this).text(Math.ceil(now));
                   }
                 }
