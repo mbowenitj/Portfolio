@@ -13,9 +13,13 @@ export class SkillsComponent implements OnInit {
     $(document).ready(function() {
       $("#skillbar_html").animate({ width: "95%" }, 1500);
       $("#skillbar_css").animate({ width: "95%" }, 1500);
+      $("#skillbar_angularjs").animate({ width: "80%" }, 1500);
       $("#skillbar_angular").animate({ width: "80%" }, 1500);
       $("#skillbar_javascript").animate({ width: "80%" }, 1500);
+      $("#skillbar_jquery").animate({ width: "85%" }, 1500);
       $("#skillbar_bootstrap").animate({ width: "90%" }, 1500);
+      // $("#skillbar_angular_material").animate({ width: "85%" }, 1500);
+      $("#skillbar_sql").animate({ width: "70%" }, 1500);
     });
   }
 }
