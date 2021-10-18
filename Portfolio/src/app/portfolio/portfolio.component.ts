@@ -23,11 +23,11 @@ export class PortfolioComponent implements OnInit {
       imgUrl: "/assets/images/projects/engagement-factory.jpg",
       url: "http://events.engagementfactory.com/cem"
     },
-    {
-      id: 3,
-      imgUrl: "/assets/images/projects/iqos-colors-model_Z.jpg",
-      url: "https://iqos-friends.nurun.io/login.html"
-    },
+    // {
+    //   id: 3,
+    //   imgUrl: "/assets/images/projects/iqos-colors-model_Z.jpg",
+    //   url: "https://iqos-friends.nurun.io/login.html"
+    // },
     {
       id: 4,
       imgUrl: "/assets/images/projects/RICOH-SQ.jpg",
@@ -41,13 +41,13 @@ export class PortfolioComponent implements OnInit {
     {
       id: 6,
       imgUrl: "/assets/images/projects/mclaren.jpg",
-      url: "http://go.mclaren.com/arctic-experience-2019"
+      url: "https://www.mclaren.com/"
     },
-    {
-      id: 7,
-      imgUrl: "/assets/images/projects/IM64Har3_400x400.jpg",
-      url: "http://go.mclaren.com/winter-ball-2018"
-    },
+    // {
+    //   id: 7,
+    //   imgUrl: "/assets/images/projects/IM64Har3_400x400.jpg",
+    //   url: "https://www.karanbeef.com/karan-in-your-home/beef-easy-app/"
+    // },
     {
       id: 8,
       imgUrl: "/assets/images/projects/volvo.jpg",
@@ -81,7 +81,7 @@ export class PortfolioComponent implements OnInit {
     {
       id: 13,
       imgUrl: "/assets/images/projects/ricoh-supercollaboration1.jpg",
-      url: "http://communication.ricoh.co.uk/super-collaboration"
+      url: "https://www.ricoh.ch/en/products/audio-visual-systems/collaboration-boards/"
     }
   ];
 
