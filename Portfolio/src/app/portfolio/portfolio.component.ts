@@ -20,7 +20,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       id: 2,
-      imgUrl: "/assets/images/projects/presles.jpg",
+      imgUrl: "/assets/images/projects/presles.png",
       url: "https://online.presles.co.za/"
     },
     {
