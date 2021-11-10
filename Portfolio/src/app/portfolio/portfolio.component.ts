@@ -12,7 +12,7 @@ export class PortfolioComponent implements OnInit {
 
   ngOnInit() { }
 
-portFolios = [
+  portFolios = [
     {
       id: 1,
       imgUrl: "/assets/images/projects/usb-ed.jpg",
@@ -20,35 +20,34 @@ portFolios = [
     },
     {
       id: 2,
-      imgUrl: "/assets/images/projects/presles.png",
-      url: "https://online.presles.co.za/"
-    },
-    {
-      id: 3,
       imgUrl: "/assets/images/projects/engagement-factory.jpg",
       url: "http://events.engagementfactory.com/cem"
     },
+    // {
+    //   id: 3,
+    //   imgUrl: "/assets/images/projects/iqos-colors-model_Z.jpg",
+    //   url: "https://iqos-friends.nurun.io/login.html"
+    // },
     {
       id: 4,
-      imgUrl: "/assets/images/projects/vsm.png",
-      url: "https://www.spendmanager.co.za/"
-    },
-    {
-      id: 5,
       imgUrl: "/assets/images/projects/RICOH-SQ.jpg",
       url: "http://productionprinting.ricoh.co.uk/managing-enterprise-output"
     },
     {
-      id: 6,
+      id: 5,
       imgUrl: "/assets/images/projects/thales-group.jpg",
       url: "https://www.thalesgroup.com/en"
     },
     {
-      id: 7,
+      id: 6,
       imgUrl: "/assets/images/projects/mclaren.jpg",
       url: "https://www.mclaren.com/"
     },
-
+    // {
+    //   id: 7,
+    //   imgUrl: "/assets/images/projects/IM64Har3_400x400.jpg",
+    //   url: "https://www.karanbeef.com/karan-in-your-home/beef-easy-app/"
+    // },
     {
       id: 8,
       imgUrl: "/assets/images/projects/volvo.jpg",
@@ -65,22 +64,22 @@ portFolios = [
       url: "http://dev.engagementfactory.com/Volvo-LP-restitution"
     },
     {
-      id: 11,
+      id: 10,
       imgUrl: "/assets/images/projects/Ricoh-Exton-crop.jpg",
       url: "http://biznes.ricoh.pl/"
     },
     {
-      id: 12,
+      id: 11,
       imgUrl: "/assets/images/projects/ricoh2.png",
       url: "http://communication.ricoh.no/promo-ucs-advanced"
     },
     {
-      id: 13,
+      id: 12,
       imgUrl: "/assets/images/projects/Ricoh-1-Main-700x445.jpg",
       url: "https://produkte.ricoh.at/promo-multifunktionssysteme"
     },
     {
-      id: 14,
+      id: 13,
       imgUrl: "/assets/images/projects/ricoh-supercollaboration1.jpg",
       url: "https://www.ricoh.ch/en/products/audio-visual-systems/collaboration-boards/"
     }
